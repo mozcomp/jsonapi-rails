@@ -11,7 +11,7 @@ module JSONAPI
 
         JSONAPI_POINTERS_KEY = 'jsonapi-rails.jsonapi_pointers'.freeze
 
-        class_methods do
+        module ClassMethods
           # Declare a deserializable resource.
           #
           # @param key [Symbol] The key under which the deserialized hash will be
